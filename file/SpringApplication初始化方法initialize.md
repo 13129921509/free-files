@@ -185,7 +185,7 @@ private int doCompare(Object o1, Object o2, OrderSourceProvider sourceProvider) 
 
 ```
 
-3. 获得classLoader下所有继承自ApplicationContextInitializer.class类的实例  
+3. 获得classLoader下所有继承自ApplicationListener.class类的实例  
 
 获得的方式跟获得ApplicationContextInitializer.class一样是通过getSpringFactoriesInstances方法获取 
 
