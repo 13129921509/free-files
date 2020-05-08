@@ -18,7 +18,7 @@ private static final String[] WEB_ENVIRONMENT_CLASSES = { "javax.servlet.Servlet
 具体实现的方法
 ```java
 private boolean deduceWebEnvironment() {
-		for (String classNa``__``me : WEB_ENVIRONMENT_CLASSES) {
+		for (String className : WEB_ENVIRONMENT_CLASSES) {
 			if (!ClassUtils.isPresent(className, null)) {
 				return false;
 			}
